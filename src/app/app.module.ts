@@ -11,6 +11,8 @@ import { DogDetailComponent } from './dog/dog-detail/dog-detail.component';
 import { DogItemComponent } from './dog/dog-list/dog-item/dog-item.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { ShoppingItemComponent } from './shopping-list/shopping-item/shopping-item.component';
+import { AppRoutingModule } from './app-routing.module';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -22,13 +24,15 @@ import { ShoppingItemComponent } from './shopping-list/shopping-item/shopping-it
     DogDetailComponent,
     DogItemComponent,
     ShoppingEditComponent,
-    ShoppingItemComponent
+    ShoppingItemComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [ AppComponent ]
 })
 export class AppModule { }
