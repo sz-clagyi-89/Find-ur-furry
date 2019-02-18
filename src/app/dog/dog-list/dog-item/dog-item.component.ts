@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Dog } from '../../dog.model';
 
 @Component({
   selector: 'app-dog-item',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dog-item.component.css']
 })
 export class DogItemComponent implements OnInit {
+  @Input() dogItem: Dog;
 
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }

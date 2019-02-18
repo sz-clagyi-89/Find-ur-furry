@@ -1,4 +1,13 @@
-<h3>dog-list works!</h3>
-<app-dog-item></app-dog-item>
-<app-dog-item></app-dog-item>
+<div class="row">
+    <div class="col-xs-12">
+        <app-dog-item 
+            *ngFor="let dog of dogs"
+            [dogItem]="dog"
+        ></app-dog-item>
+    </div>
+</div>
+
+
+
+
 
