@@ -1,12 +1,12 @@
-<app-header></app-header>
+<app-header (nav)="onSwitchFeatureComp($event)"></app-header>
 <div class="container">
   <div class="row">
     <div class="col-xs-12">
       <h1>Welcome to my {{ title }}</h1>
       <hr>
-      <app-dog></app-dog>
+      <app-dog *ngIf="setFeatureComp"></app-dog>
       <hr>
-      <app-shopping-list></app-shopping-list>
+      <app-shopping-list *ngIf="!setFeatureComp"></app-shopping-list>
     </div>
   </div>
 </div>
