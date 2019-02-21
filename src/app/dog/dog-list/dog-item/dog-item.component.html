@@ -1,8 +1,11 @@
-<a href="#" class="list-group-item clearfix">
+<a 
+  [routerLink]=[index]
+  class="list-group-item clearfix">
   <div class="pull-left">
-    <h4 class="list-group-item-heading">{{ dogItem.name }}</h4>
-    <p class="list-group-item-text">{{ dogItem.bread }}</p>
-    <p class="list-group-item-text">{{ dogItem.size }}</p>
+    <h4 class="list-group-item-heading">Name: {{ dogItem.name }}</h4>
+    <br>
+    <p class="list-group-item-text">Bread: {{ dogItem.bread }}</p>
+    <p class="list-group-item-text">Size: {{ dogItem.size }}</p>
   </div>
   <span class="pull-right">
     <img 

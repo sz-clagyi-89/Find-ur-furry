@@ -5,25 +5,25 @@ export class DogService {
         new Dog(
             'Nina',
             'Daschund mix',
-            'Cheeky',
+            'Nina et vehicula arcu. Donec tempus elit a tortor ornare, quis fermentum dui vehicula. Pellentesque et arcu nec odio aliquam maximus.',
             'Small',
-            'https://media.defense.gov/2012/Oct/24/2000103190/780/780/0/121022-F-PM370-008.JPG',
+            'https://www.maxpixel.net/static/photo/1x/Studio-Animal-View-Dachshund-Dog-1232449.jpg',
             [ 'parvo', 'hydrophobia' ]
         ),
         new Dog(
             'Roxy',
             'Daschund mix',
-            'playfull',
+            'Roxy pellentesque molestie volutpat. Ut venenatis nulla non quam vehicula molestie. Quisque condimentum purus velit, id efficitur libero mollis a',
             'Small',
-            'https://get.pxhere.com/photo/dog-fire-mammal-black-hound-domestic-animal-vertebrate-dog-breed-dachshund-guard-dog-small-dog-dog-like-mammal-carnivoran-dobermann-austrian-black-and-tan-hound-polish-hunting-dog-transylvanian-hound-black-and-tan-coonhound-1384458.jpg',
+            'https://cdn.pixabay.com/photo/2017/10/02/22/26/dog-2810598_960_720.jpg',
             [ 'parvo', 'hydrophobia', 'vermifuge' ]
         ),
         new Dog(
             'Moncsi',
             'Poodle',
-            'Chill',
+            'Moncsi laoreet magna vitae dolor eleifend, non scelerisque massa vulputate. Donec dignissim ornare magna, nec mattis massa venenatis at. Ut vitae massa sodales, rhoncus erat in, blandit libero. Suspendisse finibus pellentesque est ultrices ultricies. Donec at fringilla lacus, sed pharetra orci.',
             'Medium',
-            'https://cdn.pixabay.com/photo/2013/11/28/12/14/dog-220457_960_720.jpg',
+            'https://www.maxpixel.net/static/photo/1x/Mammal-Small-Dwarf-Poodle-Black-Dog-Cute-Pretty-3294512.jpg',
             [ 'parvo', 'hydrophobia', 'vermifuge' ]
         )
     ];
@@ -31,5 +31,9 @@ export class DogService {
     getDogs() {
         return this.dogs.slice();
         console.log(this.dogs);
+    }
+
+    getDog(index: number) {
+        return this.dogs[index];
     }
 }

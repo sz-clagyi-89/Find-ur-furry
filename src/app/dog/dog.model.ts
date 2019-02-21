@@ -1,15 +1,15 @@
 export class Dog {
     public name: string;
     public bread: string;
-    public personality: string;
+    public story: string;
     public size: string;
     public imagePath: string;
     public vaccination: string[];
 
-    constructor(name: string, bread: string, pers: string, size: string, img: string, vacc: string[]) {
+    constructor(name: string, bread: string, story: string, size: string, img: string, vacc: string[]) {
         this.name = name;
         this.bread = bread;
-        this.personality = pers;
+        this.story = story;
         this.size = size;
         this.imagePath = img;
         this.vaccination = vacc;
