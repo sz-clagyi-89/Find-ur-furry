@@ -13,6 +13,7 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
 import { ShoppingItemComponent } from './shopping-list/shopping-item/shopping-item.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { DropDownDirective } from './dropDown.directive';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     DogItemComponent,
     ShoppingEditComponent,
     ShoppingItemComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    DropDownDirective
   ],
   imports: [
     BrowserModule,

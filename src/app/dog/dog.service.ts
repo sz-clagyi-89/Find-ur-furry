@@ -15,7 +15,7 @@ export class DogService {
             'Daschund mix',
             'Roxy pellentesque molestie volutpat. Ut venenatis nulla non quam vehicula molestie. Quisque condimentum purus velit, id efficitur libero mollis a',
             'Small',
-            'https://cdn.pixabay.com/photo/2017/10/02/22/26/dog-2810598_960_720.jpg',
+            'https://cdn.pixabay.com/photo/2017/02/03/17/43/dachshund-2035700_960_720.jpg',
             [ 'parvo', 'hydrophobia', 'vermifuge' ]
         ),
         new Dog(
